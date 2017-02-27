@@ -1,0 +1,13 @@
+$font-stack: Trebuchet MS;
+$primary-colour: #000;
+$default-font-size: 14px;
+
+body {
+  font-family: $font-stack;
+  font-size: $default-font-size;
+  color: $primary-colour;  
+}
+
+#app-container {
+  margin: 20px; 
+}

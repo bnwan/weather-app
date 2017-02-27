@@ -1,0 +1,61 @@
+.weather-container {
+    .weather-city {
+        font-weight: 600;
+        font-size: 24px;
+        text-transform: capitalize;
+    }
+
+    .weather-list-container {
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+        .weather-item {
+            border: 1px solid silver;
+            padding: 10px;
+            width: 600px;
+            margin: 10px 10px 0 0;
+
+             .weather-day {
+                font-weight: 600;
+                font-size: 18px;
+            }
+
+            .weather-details {
+                display: flex;
+                width: 100%;
+
+                .weather-period {
+                    border-right: 1px solid silver;
+                    padding: 10px;
+                    width: 100%;
+
+                    &:first-child {
+                        padding-left: 0;
+                    }
+
+                    &:last-child {
+                        border-right: 0;
+                    }
+
+                    .weather-period-time {
+                        font-weight: 600;
+                    }
+
+                    .weather-temperature {
+                        background: palegreen;
+                        padding: 5px;
+                        font-weight: 600;
+
+                        span {
+                            &:after {
+                                content: "\00b0";
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
