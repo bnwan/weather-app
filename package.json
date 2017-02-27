@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "Sample weather app using React, Redux and RxJS",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --hot --inline --content-base build/",
