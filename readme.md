@@ -10,3 +10,6 @@ Developed on Windows, so setting of environment variables will need to be change
 `npm start`
 ### Test
 `npm test`
+
+## TODO
+ - write some more unit tests
